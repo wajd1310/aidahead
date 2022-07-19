@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/buttonbg.xml" value="0.1955" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/edittxtbg.xml" value="0.1955" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/vie_bg.xml" value="0.1225" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/vieo.xml" value="0.1225" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_introduction.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/example_fragment.xml" value="0.1265625" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.536" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_layout3.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/login_tab_fragment.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/signup.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/signup_fragment.xml" value="0.24635416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
