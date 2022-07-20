@@ -13,20 +13,12 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class OnBoardingFragment2 extends Fragment {
     FloatingActionButton fab;
-
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_on_boarding2,container,false);
-        fab=root.findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getActivity(), LoginActiv.class));
-            }
-        });
-
+        fab=root.findViewById(R.id.fab1);
+        fab.setOnClickListener(view -> startActivity(new Intent(getActivity(), LoginActiv.class)));
         return root;
     }
 }

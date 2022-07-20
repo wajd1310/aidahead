@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
@@ -17,11 +18,13 @@ public class LoginActiv extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
         tabLayout=findViewById(R.id.tablelayout);
-        google=findViewById(R.id.viewpager);
+        viewPager=findViewById(R.id.viewpager);
+        google=findViewById(R.id.googleID);
         fb=findViewById(R.id.facebook);
-        instagram=findViewById(R.id.googleID);
+        instagram=findViewById(R.id.insta);
         tabLayout.addTab(tabLayout.newTab().setText("Login"));
         tabLayout.addTab(tabLayout.newTab().setText("Signup"));
         tabLayout.setTabGravity (TabLayout.GRAVITY_FILL);
