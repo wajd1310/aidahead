@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "735756472820",
+    "project_id": "aid-ahead",
+    "storage_bucket": "aid-ahead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735756472820:android:832f5f2cb469dc8e5fa9a1",
+        "android_client_info": {
+          "package_name": "com.example.presentation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735756472820-rrhashk3ippm02pqt0jumpm9i5rg0jq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZIjEJKvMU2inP5yWR0fPDXSHvOhFf_HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735756472820-rrhashk3ippm02pqt0jumpm9i5rg0jq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
