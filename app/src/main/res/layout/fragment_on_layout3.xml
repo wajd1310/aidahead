@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OnBoardingFragment3"
-    android:background="#ff8da1">
+    android:background="#F5A69C">
 
     <!--  Fill with your views, just like you would in a normal ConstraintLayout  -->
     <ImageView

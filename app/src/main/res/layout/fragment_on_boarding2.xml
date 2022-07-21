@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnBoardingFragment2">
+    tools:context=".OnBoardingFragment2"
+    android:background=" #A7F2F2">
 
     <!--  Fill with your views, just like you would in a normal ConstraintLayout  -->
     <ImageView
