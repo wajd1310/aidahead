@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topNav"
+    android:layout_width="match_parent"
+    android:layout_height="102dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="-8dp"
+    android:background="@drawable/top_nav_bg"
+    >
+    <View
+        android:id="@+id/logo"
+        android:layout_width="124dp"
+        android:layout_height="112dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="66dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/rec_parent">
+
+        <TextView
+            android:id="@+id/num_keys"
+            android:layout_width="25dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal|top"
+            android:text="2" />
+
+        <View
+            android:id="@+id/keys_icon"
+            android:layout_width="24dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/keys_icon" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="66dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="333dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/rec_parent">
+
+        <TextView
+            android:id="@+id/num_coins"
+            android:layout_width="25dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal|top"
+            android:text="0" />
+
+        <View
+            android:id="@+id/coins_icon"
+            android:layout_width="24dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/coins_icon" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
