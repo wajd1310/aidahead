@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/topnav"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:background="@drawable/yellow_rectangle">
+        <TextView
+            android:id="@+id/choose_your"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp"
+            android:text="choose your way to"
+            android:textSize="26sp"
+            android:gravity="center_horizontal|top"
+            />
+
+        <TextView
+            android:id="@+id/save_lives_"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal|top"
+            android:text="SAVE LIVES!"
+            android:textSize="36sp" />
+
+        <FrameLayout
+            android:id="@+id/courseButtonHomePage"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/red_rectangle"
+            android:elevation="5dp"
+            android:layout_gravity="center_horizontal"
+            >
+            <ImageButton
+                android:id="@+id/button_x"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/red_rectangle" >
+            </ImageButton>
+
+            <TextView
+
+                android:layout_width="184dp"
+                android:layout_height="54dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:text="CHECK OUT OUR LIBRARY!"
+                android:textSize="16sp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/top_courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_alignParentTop="true"
+            android:text="Top Courses"
+            android:textSize="39sp"
+            android:gravity="top" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationX="16dp"
+        android:translationY="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/cpr_course"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cpr_pic"
+                android:elevation="7dp"
+                />
+            <TextView
+                android:id="@+id/cpr_treatme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_alignParentTop="true"
+                android:text="CPR treatment"
+                android:textSize="14sp"
+                android:gravity="top"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/heart_attack_course"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/heart_attack_pic"
+                android:elevation="7dp"
+            />
+            <TextView
+                android:id="@+id/heart_attac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="18dp"
+                android:layout_alignParentTop="true"
+                android:text="Heart Attack"
+                android:textSize="14sp"
+                android:gravity="top"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_nav" />
+
+</LinearLayout>
