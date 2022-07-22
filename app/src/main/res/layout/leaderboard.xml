@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/topnav"/>
+
+    <LinearLayout
+        android:id="@+id/rectangle_5"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:background="@drawable/yellow_rectangle"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/leader_board"
+            android:layout_width="312dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="34dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_horizontal|top"
+            android:lineHeight="54sp"
+            android:text="LEADER BOARD"
+            android:textColor="#E6FA5F5F"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:id="@+id/inside_leaderboard"
+            android:layout_width="297dp"
+            android:layout_height="432dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:background="@drawable/white_rec"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ranking_bar"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/first_place_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="1"
+                    android:fontFamily="@font/poppins_bold"
+                    android:translationY="-4sp"
+                    android:textSize="24sp"
+                    android:textColor="#FA5F5F"/>
+
+                <TextView
+                    android:id="@+id/first_place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9dp"
+                    android:text="Hadaria"
+                    android:lineSpacingExtra="12sp"
+                    android:translationY="-5.91sp"
+                    android:gravity="start|right"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/first_place_coins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="49dp"
+                    android:text="754"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:gravity="center|right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ranking_bar"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/second_place_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="2"
+                    android:fontFamily="@font/poppins_bold"
+                    android:translationY="-4sp"
+                    android:textSize="24sp"
+                    android:textColor="#FA5F5F"/>
+
+                <TextView
+                    android:id="@+id/second_place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9dp"
+                    android:text="Mika"
+                    android:lineSpacingExtra="12sp"
+                    android:translationY="-5.91sp"
+                    android:gravity="start|right"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/second_place_coins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="49dp"
+                    android:text="700"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:gravity="center|right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ranking_bar"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/third_place_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="3"
+                    android:fontFamily="@font/poppins_bold"
+                    android:translationY="-4sp"
+                    android:textSize="24sp"
+                    android:textColor="#FA5F5F"/>
+
+                <TextView
+                    android:id="@+id/third_place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9dp"
+                    android:text="Wajd"
+                    android:lineSpacingExtra="12sp"
+                    android:translationY="-5.91sp"
+                    android:gravity="start|right"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/third_place_coins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="49dp"
+                    android:text="639"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:gravity="center|right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ranking_bar"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/fourth_place_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="4"
+                    android:fontFamily="@font/poppins_bold"
+                    android:translationY="-4sp"
+                    android:textSize="24sp"
+                    android:textColor="#FA5F5F"/>
+
+                <TextView
+                    android:id="@+id/fourth_place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9dp"
+                    android:text="Tareq"
+                    android:lineSpacingExtra="12sp"
+                    android:translationY="-5.91sp"
+                    android:gravity="start|right"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/fourth_place_coins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="49dp"
+                    android:text="620"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:gravity="center|right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ranking_bar"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/fifth_place_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="5"
+                    android:fontFamily="@font/poppins_bold"
+                    android:translationY="-4sp"
+                    android:textSize="24sp"
+                    android:textColor="#FA5F5F"/>
+
+                <TextView
+                    android:id="@+id/fifth_place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9dp"
+                    android:text="Iggy"
+                    android:lineSpacingExtra="12sp"
+                    android:translationY="-5.91sp"
+                    android:gravity="start|right"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/fifth_place_coins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="49dp"
+                    android:text="590"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:gravity="center|right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ranking_bar"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/sixth_place_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="6"
+                    android:fontFamily="@font/poppins_bold"
+                    android:translationY="-4sp"
+                    android:textSize="24sp"
+                    android:textColor="#FA5F5F"/>
+
+                <TextView
+                    android:id="@+id/sixth_place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9dp"
+                    android:text="Rawan"
+                    android:lineSpacingExtra="12sp"
+                    android:translationY="-5.91sp"
+                    android:gravity="start|right"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/sixth_place_coins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="49dp"
+                    android:text="439"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:gravity="center|right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_nav"/>
+
+</LinearLayout>

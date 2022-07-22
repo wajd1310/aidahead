@@ -8,24 +8,27 @@
     android:layout_marginTop="-8dp"
     android:background="@drawable/top_nav_bg"
     >
+
+
     <View
-        android:id="@+id/logo"
-        android:layout_width="124dp"
-        android:layout_height="112dp"
+        android:id="@+id/finnalized_"
+        android:layout_width="119.56dp"
+        android:layout_height="49.66dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/logo"
-        />
-
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/logo" />
 
     <RelativeLayout
         android:layout_width="66dp"
         android:layout_height="34dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="256dp"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="38dp"
-        android:background="@drawable/rec_parent">
+        android:layout_marginRight="102dp"
+        android:background="@drawable/rec_parent"
+        android:gravity="right">
 
         <TextView
             android:id="@+id/num_keys"
@@ -33,7 +36,7 @@
             android:layout_height="22dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="11dp"
+            android:layout_marginLeft="13dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal|top"
             android:text="2" />
@@ -58,10 +61,11 @@
     <RelativeLayout
         android:layout_width="66dp"
         android:layout_height="34dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="333dp"
-        android:layout_marginTop="38dp"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginTop="39dp"
+        android:layout_marginRight="25dp"
         android:background="@drawable/rec_parent">
 
         <TextView

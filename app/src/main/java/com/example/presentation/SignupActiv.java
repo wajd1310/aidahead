@@ -29,6 +29,7 @@ public class SignupActiv extends AppCompatActivity {
         final SignupAdapter adapter1 = new SignupAdapter(getSupportFragmentManager(),this,tabLayout.getTabCount());
         viewPager.setAdapter(adapter1);
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
 //        fb.setTranslationY(300);
 //        google.setTranslationY(300);
 //        instagram.setTranslationY(300);

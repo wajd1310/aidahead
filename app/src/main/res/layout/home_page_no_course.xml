@@ -30,7 +30,7 @@
             android:gravity="center_horizontal|top"
             android:text="SAVE LIVES!"
             android:textSize="36sp"
-            android:fontFamily="@font/poppins_black"/>
+            android:fontFamily="@font/poppins_extrabold"/>
 
         <FrameLayout
             android:id="@+id/courseButtonHomePage"
