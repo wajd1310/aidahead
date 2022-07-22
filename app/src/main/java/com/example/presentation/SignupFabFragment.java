@@ -77,7 +77,6 @@ public class SignupFabFragment extends Fragment {
                     public void onComplete (@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Toast.makeText(getActivity(),"User registered successfully", Toast.LENGTH_SHORT).show();
-                            startActivity (new Intent( getActivity(), LoginActiv.class));
                         }else{
                             Toast.makeText(getActivity(),"Registration Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }

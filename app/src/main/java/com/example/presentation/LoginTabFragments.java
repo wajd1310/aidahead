@@ -34,6 +34,7 @@ public class LoginTabFragments extends Fragment {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.login_tab_fragment, container, false);
         email = root.findViewById(R.id.email);
         pass = root.findViewById(R.id.pass);
+        forgetPass = root.findViewById(R.id.pass);
         signup = root.findViewById(R.id.signup);
         login = root.findViewById(R.id.button);
         mAuth=FirebaseAuth.getInstance();
@@ -76,7 +77,6 @@ public class LoginTabFragments extends Fragment {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {
                         Toast.makeText(getActivity(), "User logged in successfully", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(getActivity(), mainPage.class));
                     } else {
                         Toast.makeText(getActivity(), "Log in Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
