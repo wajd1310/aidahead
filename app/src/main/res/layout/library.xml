@@ -44,7 +44,7 @@
                         android:layout_width="165dp"
                         android:layout_height="165dp"
                         android:background="@drawable/cpr_pic"
-                        android:onClick="onClick"
+                        android:onClick="onButtonShowPopupWindowClick"
                         tools:ignore="SpeakableTextPresentCheck" />
                     <TextView
                         android:id="@+id/cpr"

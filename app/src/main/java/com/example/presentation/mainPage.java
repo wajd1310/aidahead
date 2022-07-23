@@ -26,7 +26,7 @@ public class mainPage extends AppCompatActivity {
         libraryBtn = findViewById(R.id.library);
         cpr_course=findViewById(R.id.cpr_course);
         libraryBtn.setOnClickListener(view->{
-            startActivity(new Intent(mainPage.this, library.class));
+            startActivity(new Intent(mainPage.this, Library.class));
         });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         leaderboardBtn = findViewById(R.id.leaderboard);

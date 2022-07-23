@@ -21,24 +21,21 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class LoginTabFragments extends Fragment {
-    float v = 0;
+    float v=0;
     Button login;
-    EditText email, pass;
+    EditText email,pass;
+    TextView forgetPass,signup;
     FirebaseAuth mAuth;
-    TextView forgetPass, signup;
-
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.login_tab_fragment, container, false);
-        email = root.findViewById(R.id.email);
-        pass = root.findViewById(R.id.pass);
-        forgetPass = root.findViewById(R.id.forgot_pass);
-        signup = root.findViewById(R.id.signup);
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.login_tab_fragment,container,false);
+        email =root.findViewById(R.id.email);
+        pass=root.findViewById(R.id.pass);
+        forgetPass = root.findViewById(R.id.pass);
+        signup=root.findViewById(R.id.signup);
         login = root.findViewById(R.id.button);
-        mAuth=FirebaseAuth.getInstance();
         email.setTranslationX(800);
         pass.setTranslationX(800);
         forgetPass.setTranslationX(800);
@@ -49,11 +46,13 @@ public class LoginTabFragments extends Fragment {
         signup.setAlpha(v);
         forgetPass.setAlpha(v);
         login.setAlpha(v);
-        email.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(300).start();
-        pass.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(500).start();
-        forgetPass.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(500).start();
-        login.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(700).start();
-        signup.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(700).start();
+        email.animate().translationX(0).alpha(1).setDuration (800).setStartDelay(300).start();
+        pass.animate().translationX(0).alpha (1).setDuration (800).setStartDelay(500).start();
+        forgetPass.animate().translationX(0).alpha (1).setDuration (800).setStartDelay(500).start();
+        login.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
+        signup.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
+        mAuth=FirebaseAuth.getInstance();
+
         login.setOnClickListener(view->{
             loginUser();
             startActivity(new Intent(getActivity(), mainPage.class));
@@ -67,7 +66,7 @@ public class LoginTabFragments extends Fragment {
         return root;
     }
 
- void loginUser() {
+    void loginUser() {
         String email1 = email.getText().toString();
         String password = pass.getText().toString();
         if (TextUtils.isEmpty(email1)) {
@@ -89,6 +88,5 @@ public class LoginTabFragments extends Fragment {
             });
         }
     }
+
 }
-
-

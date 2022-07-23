@@ -30,7 +30,7 @@
             android:name=".Leaderboard"
             android:exported="false"></activity>
         <activity
-            android:name=".library"
+            android:name=".Library"
             android:exported="false"></activity>
 
         <activity android:name=".SignupActiv"

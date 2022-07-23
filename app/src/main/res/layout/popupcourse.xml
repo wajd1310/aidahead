@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rectangle_4"
+    android:layout_width="275dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="-24dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popupcoursebg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="51dp"
+            android:background="@drawable/white_rec"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="CPR"
+            android:textColor="#F2DB66"
+            android:textSize="39sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="•THEORY"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="•VIDEO"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="•TEST"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/lock_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/lock"
+                />
+
+            <ImageButton
+                android:id="@+id/buy"
+                android:layout_width="213dp"
+                android:layout_height="46dp"
+                android:layout_gravity="bottom"
+                android:background="#00000000"
+                android:src="@drawable/unlock_course"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

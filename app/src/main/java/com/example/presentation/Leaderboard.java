@@ -21,7 +21,7 @@ public class Leaderboard extends AppCompatActivity {
             startActivity(new Intent(Leaderboard.this, mainPage.class));
         });
         libraryBtn.setOnClickListener(view->{
-            startActivity(new Intent(Leaderboard.this, library.class));
+            startActivity(new Intent(Leaderboard.this, Library.class));
         });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
