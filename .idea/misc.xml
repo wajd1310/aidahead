@@ -7,42 +7,23 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/edittxtbg.xml" value="0.1955" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/vie_bg.xml" value="0.1225" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/drawable/vieo.xml" value="0.1225" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_introduction.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_introduction.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_quiz.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/bottom_nav.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/cpr_course.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/example_fragment.xml" value="0.1265625" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_layout3.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/home_page_no_course.xml" value="0.1328125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/leaderboard.xml" value="0.1328125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/library.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/login_tab_fragment.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/signup.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/signup_activity.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/signup_fragment.xml" value="0.24635416666666668" />
-        <entry key="app/src/main/res/drawable/account.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/bottom_nav_bg.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/coins_icon.xml" value="0.2015" />
-        <entry key="app/src/main/res/drawable/cpr_pic.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/home_icon.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/keys_icon.xml" value="0.2015" />
-        <entry key="app/src/main/res/drawable/leaderboard.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/library.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/rec_parent.xml" value="0.2015" />
-        <entry key="app/src/main/res/drawable/red_rectangle.xml" value="0.2035" />
-        <entry key="app/src/main/res/drawable/top_nav_bg.xml" value="0.2015" />
-        <entry key="app/src/main/res/drawable/white_rec.xml" value="0.2535" />
-        <entry key="app/src/main/res/drawable/yellow_rectangle.xml" value="0.2015" />
-        <entry key="app/src/main/res/font/outfit.xml" value="0.36512820512820515" />
-        <entry key="app/src/main/res/font/poppins.xml" value="0.3854166666666667" />
-        <entry key="app/src/main/res/layout/activity_introduction.xml" value="0.13297872340425532" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.296" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17325227963525835" />
-        <entry key="app/src/main/res/layout/bottom_nav.xml" value="0.2864583333333333" />
-        <entry key="app/src/main/res/layout/home_page_no_course.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/leaderboard.xml" value="0.20878623188405798" />
-        <entry key="app/src/main/res/layout/library.xml" value="0.3442028985507246" />
-        <entry key="app/src/main/res/layout/login_tab_fragment.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/signup_fragment.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/topnav.xml" value="0.5" />
       </map>
     </option>
   </component>
@@ -51,12 +32,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.2864583333333333" />
-      </ProjectState>
-    </option>
   </component>
 </project>

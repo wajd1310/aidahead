@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
     <include layout="@layout/topnav" />
     <TextView
         android:id="@+id/course_libr"
@@ -20,7 +19,6 @@
         android:fontFamily="@font/poppins_medium"
         android:lineHeight="39sp"
         android:textSize="26sp"/>
-
     <ScrollView
         android:layout_width="372dp"
         android:layout_height="507dp"
@@ -31,19 +29,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="11dp"
                 android:layout_marginTop="27dp"
                 android:orientation="horizontal">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-
                     <ImageButton
                         android:id="@+id/cpr_game"
                         android:layout_width="165dp"
@@ -51,7 +46,6 @@
                         android:background="@drawable/cpr_pic"
                         android:onClick="onClick"
                         tools:ignore="SpeakableTextPresentCheck" />
-
                     <TextView
                         android:id="@+id/cpr"
                         android:layout_width="36dp"
@@ -60,24 +54,21 @@
                         android:fontFamily="@font/poppins_regular"
                         android:lineHeight="18sp"
                         android:lineSpacingExtra="-5sp"
-                        android:text="cpr"
+                        android:text="CPR"
                         android:textAlignment="center"
                         android:textColor="#000000" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="23dp"
                     android:orientation="vertical">
-
                     <ImageButton
                         android:id="@+id/heart_attack_game"
                         android:layout_width="165dp"
                         android:layout_height="165dp"
                         android:background="@drawable/heart_attack_pic"
                         tools:ignore="SpeakableTextPresentCheck" />
-
                     <TextView
                         android:id="@+id/heart_attack"
                         android:layout_width="wrap_content"

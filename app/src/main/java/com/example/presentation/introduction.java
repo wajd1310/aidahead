@@ -26,7 +26,7 @@ public class introduction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_introduction);
-        logo=findViewById(R.id.logo);
+        logo=findViewById(R.id.logonew);
         splash=findViewById(R.id.img);
         lottieAnimationView=findViewById(R.id.lottie);
         splash.animate().translationY(-2600).setDuration(1000).setStartDelay(2000);

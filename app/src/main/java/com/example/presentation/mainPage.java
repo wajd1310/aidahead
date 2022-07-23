@@ -3,6 +3,7 @@ package com.example.presentation;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -16,60 +17,21 @@ public class mainPage extends AppCompatActivity {
 
     private ImageButton libraryBtn;
     private ImageButton leaderboardBtn;
-    private ImageButton homeBtn;
+    private ImageButton homeBtn,cpr_course;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_page_no_course);
         libraryBtn = findViewById(R.id.library);
-        libraryBtn.setOnClickListener(Lib);
-
+        cpr_course=findViewById(R.id.cpr_course);
+        libraryBtn.setOnClickListener(view->{
+            startActivity(new Intent(mainPage.this, library.class));
+        });
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         leaderboardBtn = findViewById(R.id.leaderboard);
-        leaderboardBtn.setOnClickListener(leaderboard);
-
+        leaderboardBtn.setOnClickListener(view->{
+            startActivity(new Intent(mainPage.this, Leaderboard.class));
+        });
     }
-
-    View.OnClickListener Lib = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            setContentView(R.layout.library);
-            leaderboardBtn = findViewById(R.id.leaderboard);
-
-            homeBtn = findViewById(R.id.home);
-            homeBtn.setOnClickListener(home);
-            leaderboardBtn = findViewById(R.id.leaderboard);
-            leaderboardBtn.setOnClickListener(leaderboard);
-
-        }
-    };
-
-    View.OnClickListener home = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            setContentView(R.layout.home_page_no_course);
-            libraryBtn = findViewById(R.id.library);
-            leaderboardBtn = findViewById(R.id.leaderboard);
-
-            libraryBtn.setOnClickListener(Lib);
-            leaderboardBtn = findViewById(R.id.leaderboard);
-            leaderboardBtn.setOnClickListener(leaderboard);
-        }
-    };
-
-    View.OnClickListener leaderboard = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            setContentView(R.layout.leaderboard);
-            homeBtn = findViewById(R.id.home);
-            libraryBtn = findViewById(R.id.library);
-
-
-            homeBtn.setOnClickListener(home);
-            libraryBtn.setOnClickListener(Lib);
-            leaderboardBtn = findViewById(R.id.leaderboard);
-            leaderboardBtn.setOnClickListener(leaderboard);
-
-        }
-    };
 }
