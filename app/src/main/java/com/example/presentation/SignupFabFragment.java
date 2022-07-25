@@ -21,6 +21,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.nio.charset.StandardCharsets;
 
@@ -29,6 +30,7 @@ public class SignupFabFragment extends Fragment {
     Button signup;
     EditText email,pass,test,phone;
     FirebaseAuth mAuth;
+    FirebaseDatabase database;
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.signup_fragment,container,false);
@@ -53,6 +55,9 @@ public class SignupFabFragment extends Fragment {
         phone.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
         signup.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
         mAuth=FirebaseAuth.getInstance();
+        database = FirebaseDatabase.getInstance();
+        User tarek = new User("Tarek", "alqassasfehtarek@gmail.com", "12345", "593598", 0, 0);
+        database.getReference("Users").child("1").setValue("Tarek");
         signup.setOnClickListener(view->{
             createUser();
             startActivity(new Intent(getActivity(), LoginActiv.class));
