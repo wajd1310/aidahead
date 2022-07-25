@@ -25,7 +25,7 @@
             android:background="@drawable/white_rec"
             android:fontFamily="@font/poppins_bold"
             android:gravity="center"
-            android:text="CPR"
+            android:text="Heart Attack"
             android:textColor="#F2DB66"
             android:textSize="39sp" />
 

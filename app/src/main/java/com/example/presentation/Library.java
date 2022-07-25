@@ -1,6 +1,8 @@
 package com
         .example.presentation;
 
+import static android.widget.Toast.makeText;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -10,32 +12,81 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import org.w3c.dom.Text;
 
 public class Library extends AppCompatActivity{
     private ImageButton leaderboardBtn;
     private ImageButton homeBtn;
+    private ImageButton libraryBtn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.library);
+
+        ImageButton home = (ImageButton) findViewById(R.id.library);
+        home.setBackgroundResource(R.drawable.library_on);
+
         leaderboardBtn=findViewById(R.id.leaderboard);
         homeBtn=findViewById(R.id.home);
+        libraryBtn=findViewById(R.id.library);
         leaderboardBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, Leaderboard.class));
         });
         homeBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, mainPage.class));
         });
+        libraryBtn.setOnClickListener(view->{
+            startActivity(new Intent(Library.this, Library.class));
+        });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 
+
+    private String course_name = "";
     public void onButtonShowPopupWindowClick(View view) {
+
+
+        switch (view.getId()){
+            case R.id.cpr_game:
+                course_name = "CPR";
+                break;
+            case R.id.heart_attack_game:
+                course_name = "Heart Attack";
+                break;
+            case R.id.asthma_game:
+                course_name = "Asthma";
+                break;
+            case R.id.chocking_game:
+                course_name = "Chocking";
+                break;
+            case R.id.epileptic_game:
+                course_name = "Epileptic";
+                break;
+
+            case R.id.burn_game:
+                course_name = "Burns";
+                break;
+
+            default:
+                course_name = "ERROR";
+                break;
+        }
+
+
+
+
 
         // inflate the layout of the popup window
         LayoutInflater inflater = (LayoutInflater)
                 getSystemService(LAYOUT_INFLATER_SERVICE);
         View popupView = inflater.inflate(R.layout.popupcourse, null);
+
+        TextView text = (TextView) popupView.findViewById(R.id.course_name);
+        text.setText(course_name);
 
         // create the popup window
         int width = LinearLayout.LayoutParams.WRAP_CONTENT;
