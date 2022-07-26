@@ -35,6 +35,7 @@ public class Library extends AppCompatActivity{
         homeBtn=findViewById(R.id.home);
         accountBtn=findViewById(R.id.account);
         libraryBtn=findViewById(R.id.library);
+
         leaderboardBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, Leaderboard.class));
         });
@@ -44,9 +45,6 @@ public class Library extends AppCompatActivity{
 
         accountBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, account.class));
-
-        libraryBtn.setOnClickListener(view->{
-            startActivity(new Intent(Library.this, Library.class));
         });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }

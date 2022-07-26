@@ -21,18 +21,19 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.nio.charset.StandardCharsets;
 
 public class SignupFabFragment extends Fragment {
     float v=0;
     Button signup;
-    EditText email,pass,test,phone;
+    EditText email,pass,test,name;
     FirebaseAuth mAuth;
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.signup_fragment,container,false);
-        phone =root.findViewById(R.id.phone_num);
+        name =root.findViewById(R.id.name);
         pass=root.findViewById(R.id.pass);
         test = root.findViewById(R.id.confirm);
         signup = root.findViewById(R.id.button);
@@ -41,18 +42,19 @@ public class SignupFabFragment extends Fragment {
         pass.setTranslationX(800);
         test.setTranslationX(800);
         signup.setTranslationX(800);
-        phone.setTranslationX(800);
+        name.setTranslationX(800);
         email.setAlpha(v);
         pass.setAlpha(v);
         test.setAlpha(v);
-        phone.setAlpha(v);
+        name.setAlpha(v);
         signup.setAlpha(v);
         email.animate().translationX(0).alpha(1).setDuration (800).setStartDelay(300).start();
         pass.animate().translationX(0).alpha (1).setDuration (800).setStartDelay(500).start();
         test.animate().translationX(0).alpha (1).setDuration (800).setStartDelay(500).start();
-        phone.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
+        name.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
         signup.animate().translationX(0).alpha(1).setDuration (800).setStartDelay (700).start();
         mAuth=FirebaseAuth.getInstance();
+        DBQuery.g_firestore= FirebaseFirestore.getInstance();
         signup.setOnClickListener(view->{
             createUser();
             startActivity(new Intent(getActivity(), LoginActiv.class));
@@ -62,6 +64,7 @@ public class SignupFabFragment extends Fragment {
     private void createUser(){
         String email1= email.getText().toString();
         String password=pass.getText().toString();
+        String name1=name.getText().toString();
         String test1=test.getText().toString();
         if (TextUtils.isEmpty(email1)) {
             email.setError("Email cannot be empty");
@@ -77,6 +80,17 @@ public class SignupFabFragment extends Fragment {
                     public void onComplete (@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Toast.makeText(getActivity(),"User registered successfully", Toast.LENGTH_SHORT).show();
+                            DBQuery.CreateUserData(email1,name1, new MyCompleteListener() {
+                                @Override
+                                public void onSuccess() {
+                                    Toast.makeText(getActivity(),"User registered successfully", Toast.LENGTH_SHORT).show();
+                                }
+
+                                @Override
+                                public void onFailure() {
+                                    Toast.makeText(getActivity(),"Something went wrong! Please Try Again Later !", Toast.LENGTH_SHORT).show();
+                                }
+                            });
                         }else{
                             Toast.makeText(getActivity(),"Registration Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }

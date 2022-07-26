@@ -23,12 +23,14 @@ public class mainPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+    getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.home_page_no_course);
 
 
         ImageButton home = (ImageButton) findViewById(R.id.home);
         home.setBackgroundResource(R.drawable.home_on_icon);
 
+        accountBtn=findViewById(R.id.account);
         libraryBtn = findViewById(R.id.library);
         cpr_course=findViewById(R.id.cpr_course);
         libraryBtn.setOnClickListener(view->{
@@ -41,7 +43,5 @@ public class mainPage extends AppCompatActivity {
         accountBtn.setOnClickListener(view->{
             startActivity(new Intent(mainPage.this, account.class));
         });
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
     }
 }
