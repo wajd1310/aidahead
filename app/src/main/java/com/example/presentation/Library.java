@@ -16,22 +16,36 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Library extends AppCompatActivity{
     private ImageButton leaderboardBtn;
     private ImageButton homeBtn;
+    private ImageButton accountBtn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.library);
         leaderboardBtn=findViewById(R.id.leaderboard);
         homeBtn=findViewById(R.id.home);
+        accountBtn=findViewById(R.id.account);
         leaderboardBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, Leaderboard.class));
         });
         homeBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, mainPage.class));
         });
+        accountBtn.setOnClickListener(view->{
+            startActivity(new Intent(Library.this, account.class));
+        });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 
     public void onButtonShowPopupWindowClick(View view) {
 
+        String course = "";
+        switch (view.getId()) {
+            case R.id.cpr:
+                // do something
+                break;
+            case R.id.heart_attac:
+                // do something else
+                break;
+        }
         // inflate the layout of the popup window
         LayoutInflater inflater = (LayoutInflater)
                 getSystemService(LAYOUT_INFLATER_SERVICE);

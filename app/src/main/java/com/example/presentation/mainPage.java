@@ -17,6 +17,7 @@ public class mainPage extends AppCompatActivity {
 
     private ImageButton libraryBtn;
     private ImageButton leaderboardBtn;
+    private ImageButton accountBtn;
     private ImageButton homeBtn,cpr_course;
 
     @Override
@@ -28,10 +29,14 @@ public class mainPage extends AppCompatActivity {
         libraryBtn.setOnClickListener(view->{
             startActivity(new Intent(mainPage.this, Library.class));
         });
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         leaderboardBtn = findViewById(R.id.leaderboard);
         leaderboardBtn.setOnClickListener(view->{
             startActivity(new Intent(mainPage.this, Leaderboard.class));
         });
+        accountBtn.setOnClickListener(view->{
+            startActivity(new Intent(mainPage.this, account.class));
+        });
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
     }
 }
