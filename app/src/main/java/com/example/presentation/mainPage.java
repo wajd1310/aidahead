@@ -24,6 +24,11 @@ public class mainPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_page_no_course);
+
+
+        ImageButton home = (ImageButton) findViewById(R.id.home);
+        home.setBackgroundResource(R.drawable.home_on_icon);
+
         libraryBtn = findViewById(R.id.library);
         cpr_course=findViewById(R.id.cpr_course);
         libraryBtn.setOnClickListener(view->{
