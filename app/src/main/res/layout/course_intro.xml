@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonquiz"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <include layout="@layout/topnav" />
 
 
@@ -33,6 +35,9 @@
         android:id="@+id/cpr_is_a_li"
         android:layout_width="298dp"
         android:layout_height="302dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="370dp"
         android:gravity="center_horizontal|center"
         android:lineSpacingExtra="9sp"
         android:text="CPR is  a lifesaving technique that's used in many emergencies
@@ -40,11 +45,7 @@ in which someone's breathing or heartbeat has stopped.
 "
         android:textColor="#000000"
         android:textSize="22sp"
-        android:translationY="-4.59sp"
-        android:layout_marginTop="370dp"
-        android:layout_marginLeft="55dp"
-        android:layout_centerHorizontal="true"
-        />
+        android:translationY="-4.59sp" />
 
 
     <include layout="@layout/bottom_nav" />
