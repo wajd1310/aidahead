@@ -47,6 +47,28 @@ in which someone's breathing or heartbeat has stopped.
         android:textSize="22sp"
         android:translationY="-4.59sp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/go_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/go_right1B"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onClick"
+            android:visibility="visible" />
+    </LinearLayout>
 
     <include layout="@layout/bottom_nav" />
 
