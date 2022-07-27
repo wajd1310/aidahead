@@ -5,20 +5,21 @@
     <include layout="@layout/topnav" />
 
 
-        <TextView
-            android:id="@+id/course_page_1"
-            android:layout_width="247dp"
-            android:layout_height="55dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="78dp"
-            android:layout_marginTop="120dp"
-            android:gravity="center_horizontal|top"
-            android:text="What is CPR?"
-            android:textSize="36sp"
-            android:textColor="#000000"
+    <TextView
+        android:id="@+id/course_page_1"
+        android:layout_width="247dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal|top"
+        android:text="What is CPR?"
+        android:textColor="#000000"
+        android:textSize="36sp"
 
-            />
+        />
 
     <View
         android:id="@+id/cpr_pic_course_page_1"
@@ -42,6 +43,7 @@ in which someone's breathing or heartbeat has stopped.
         android:translationY="-4.59sp"
         android:layout_marginTop="370dp"
         android:layout_marginLeft="55dp"
+        android:layout_centerHorizontal="true"
         />
 
 

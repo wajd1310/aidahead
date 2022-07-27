@@ -39,6 +39,8 @@
         <activity
             android:name=".mainPage"
             android:exported="false"></activity>
+        <activity android:name=".CPR_course"
+            android:exported="false"></activity>
     </application>
 
 </manifest>

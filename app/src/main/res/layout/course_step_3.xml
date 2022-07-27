@@ -17,6 +17,7 @@
         tools:layout_editor_absoluteY="146dp"
         android:layout_marginTop="120dp"
         android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
         />
 
     <TextView
@@ -33,7 +34,8 @@
         android:translationY="-6.61sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="222dp" />
+        tools:layout_editor_absoluteY="222dp"
+        android:layout_centerHorizontal="true"/>
 
 
     <include
@@ -60,12 +62,13 @@
         android:lineSpacingExtra="-4sp"
         android:text=" ● Make sure the airway is not blocked."
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="21sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="547dp"
         android:layout_marginTop="500dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/step_3_text_2"
@@ -76,12 +79,13 @@
         android:text=" ●If the mouth is closed, tilt their head back; so it opens up.
 "
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="21sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="614dp"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="590dp"/>
+        android:layout_marginTop="590dp"
+        android:layout_centerHorizontal="true"/>
 
     <include
         layout="@layout/topnav"

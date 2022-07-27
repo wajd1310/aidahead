@@ -21,7 +21,8 @@
         android:textSize="36sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteY="130dp"
+        android:layout_centerHorizontal="true"/>
 
     <RelativeLayout
         android:id="@+id/frame_3"
@@ -29,8 +30,8 @@
         android:layout_height="211dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="34dp"
-        android:layout_marginTop="229dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="235dp"
         android:background="@drawable/step_5_pic"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
@@ -51,7 +52,8 @@
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="509dp" />
+        tools:layout_editor_absoluteY="509dp"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
