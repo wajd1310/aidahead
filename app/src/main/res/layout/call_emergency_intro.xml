@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bottom_nav" />
+
+    <include layout="@layout/topnav"/>
+
+    <TextView
+        android:id="@+id/how_to_talk"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="98dp"
+        android:gravity="center_horizontal|top"
+        android:text="How to talk to"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/the_emergency"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="144dp"
+        android:gravity="center_horizontal|top"
+        android:text="the Emergency"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="191dp"
+        android:gravity="center_horizontal|top"
+        android:text="services?"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <RelativeLayout
+        android:id="@+id/fr"
+        android:layout_width="342dp"
+        android:layout_height="211dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/call_emergency_intro_pic" />
+
+    <TextView
+        android:id="@+id/first_take_"
+        android:layout_width="277dp"
+        android:layout_height="89dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="511dp"
+        android:gravity="center_horizontal|top"
+        android:text="First, take a deep breath and stay calm"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

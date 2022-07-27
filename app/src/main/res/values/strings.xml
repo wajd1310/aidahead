@@ -1,4 +1,7 @@
 <resources>
     <string name="CPR">CPR</string>
     <string name="app_name">presentation</string>
+    <string name="Remember_bold_extra"><b>Remember</b>, stay on the line until the dispatcher tells you to hang up.</string>
+    <string name="first_word_colored"><font fgcolor="#FA5F5F"><b> Tip:</b></font> Answer all questions as best as you can.</string>
+
 </resources>

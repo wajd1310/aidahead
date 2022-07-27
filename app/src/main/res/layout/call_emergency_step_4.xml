@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bottom_nav" />
+    <include layout="@layout/topnav"/>
+
+    <TextView
+        android:id="@+id/step_4"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="103dp"
+        android:gravity="center_horizontal|top"
+        android:text="Step 4"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <View
+        android:id="@+id/map_locatio"
+        android:layout_width="236dp"
+        android:layout_height="236dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/call_emergency_step_4_pic" />
+
+    <TextView
+        android:id="@+id/share_your_"
+        android:layout_width="268dp"
+        android:layout_height="216dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="460dp"
+        android:gravity="center_horizontal|top"
+        android:text="  Follow the instructions from the dispatcher. "
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/provide"
+        android:layout_width="268dp"
+        android:layout_height="216dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="542dp"
+        android:gravity="center_horizontal|top"
+        android:text="They may ask you to administer first aid."
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
