@@ -108,6 +108,12 @@ public class Library extends AppCompatActivity{
         // which view you pass in doesn't matter, it is only used for the window tolken
         popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
 
-
+        ImageButton go_course = (ImageButton) popupView.findViewById(R.id.buy);
+        go_course.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Library.this, CPR_course.class));
+            }
+        });
     }
 }
