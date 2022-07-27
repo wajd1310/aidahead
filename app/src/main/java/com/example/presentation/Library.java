@@ -22,6 +22,7 @@ import org.w3c.dom.Text;
 public class Library extends AppCompatActivity{
     private ImageButton leaderboardBtn;
     private ImageButton homeBtn;
+    private ImageButton accountBtn;
     private ImageButton libraryBtn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,15 +33,18 @@ public class Library extends AppCompatActivity{
 
         leaderboardBtn=findViewById(R.id.leaderboard);
         homeBtn=findViewById(R.id.home);
+        accountBtn=findViewById(R.id.account);
         libraryBtn=findViewById(R.id.library);
+
         leaderboardBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, Leaderboard.class));
         });
         homeBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, mainPage.class));
         });
-        libraryBtn.setOnClickListener(view->{
-            startActivity(new Intent(Library.this, Library.class));
+
+        accountBtn.setOnClickListener(view->{
+            startActivity(new Intent(Library.this, account.class));
         });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
@@ -48,6 +52,15 @@ public class Library extends AppCompatActivity{
 
     private String course_name = "";
     public void onButtonShowPopupWindowClick(View view) {
+        String course = "";
+        switch (view.getId()) {
+            case R.id.cpr:
+                // do something
+                break;
+            case R.id.heart_attac:
+                // do something else
+                break;
+        }
 
 
         switch (view.getId()){
@@ -75,9 +88,6 @@ public class Library extends AppCompatActivity{
                 course_name = "ERROR";
                 break;
         }
-
-
-
 
 
         // inflate the layout of the popup window

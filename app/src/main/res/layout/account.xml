@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/topnav"/>
+
+    <TextView
+        android:id="@+id/my_account"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="117dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="top"
+        android:lineHeight="39sp"
+        android:text="My Account"
+        android:textColor="@color/black"
+        android:textSize="26sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="top"
+                    android:lineHeight="20sp"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Name"
+                    android:textSize="16sp"
+                    android:translationY="-2.37sp" />
+
+                <View
+                    android:id="@+id/rectangle_8"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="171dp"
+                    android:background="@drawable/account_info_bg" />
+
+                <TextView
+                    android:id="@+id/first_name"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="181dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineHeight="30sp"
+                    android:lineSpacingExtra="11sp"
+                    android:text="Freddie"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:translationY="-5.61sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp">
+
+                <TextView
+                    android:id="@+id/last_name_name"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="top"
+                    android:lineHeight="20sp"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Last name"
+                    android:textSize="16sp"
+                    android:translationY="-2.37sp" />
+
+                <View
+                    android:id="@+id/rectangle_9"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="171dp"
+                    android:background="@drawable/account_info_bg" />
+
+                <TextView
+                    android:id="@+id/last_name"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="181dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineHeight="30sp"
+                    android:lineSpacingExtra="11sp"
+                    android:text="Mercury"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:translationY="-5.61sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/email_email"
+                android:layout_width="80dp"
+                android:layout_height="17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:lineHeight="20sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Email"
+                android:textSize="16sp"
+                android:translationY="-2.37sp" />
+
+            <View
+                android:id="@+id/rectangle_654"
+                android:layout_width="321dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/account_info_bg_big" />
+
+            <TextView
+                android:id="@+id/Email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal|top"
+                android:lineHeight="30sp"
+                android:lineSpacingExtra="11sp"
+                android:text="freddiemerucry69@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:translationY="-5.61sp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/birthday"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="top"
+                    android:lineHeight="20sp"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Birthday"
+                    android:textSize="16sp"
+                    android:translationY="-2.37sp" />
+
+                <View
+                    android:id="@+id/rectangle_3204"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="51dp"
+                    android:background="@drawable/account_info_bg" />
+
+                <TextView
+                    android:id="@+id/birthday_day"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="61dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineHeight="30sp"
+                    android:lineSpacingExtra="11sp"
+                    android:text="16/9/2006"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:translationY="-5.61sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp">
+
+                <TextView
+                    android:id="@+id/phone_phone"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="top"
+                    android:lineHeight="20sp"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Phone"
+                    android:textSize="16sp"
+                    android:translationY="-2.37sp" />
+
+                <View
+                    android:id="@+id/rectangle_23048"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="51dp"
+                    android:background="@drawable/account_info_bg" />
+
+                <TextView
+                    android:id="@+id/Phone"
+                    android:layout_width="154dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="61dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineHeight="30sp"
+                    android:lineSpacingExtra="11sp"
+                    android:text="0545478600"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:translationY="-5.61sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+    </LinearLayout>
+    <include layout="@layout/bottom_nav"/>
+</RelativeLayout>

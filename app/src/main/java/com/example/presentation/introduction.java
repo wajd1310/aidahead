@@ -14,18 +14,20 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.presentation.R;
 
 public class introduction extends AppCompatActivity {
- ImageView logo,splash;
+    ImageView logo,splash;
     private static final int NUM=3;
     private ViewPager viewPager;
     private introduction.ScreenSlidePagerAdapter pagerAdapter;
- LottieAnimationView lottieAnimationView;
+    LottieAnimationView lottieAnimationView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_introduction);
+        logo=findViewById(R.id.logonew);
         logo=findViewById(R.id.logonew);
         splash=findViewById(R.id.img);
         lottieAnimationView=findViewById(R.id.lottie);
