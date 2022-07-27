@@ -19,7 +19,7 @@ public class account extends AppCompatActivity{
     private ImageButton libraryBtn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.library);
+        setContentView(R.layout.account);
         leaderboardBtn=findViewById(R.id.leaderboard);
         homeBtn=findViewById(R.id.home);
         libraryBtn=findViewById(R.id.library);
@@ -32,7 +32,7 @@ public class account extends AppCompatActivity{
         libraryBtn.setOnClickListener(view->{
             startActivity(new Intent(account.this, Library.class));
         });
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
-
 }
