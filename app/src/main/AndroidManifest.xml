@@ -39,13 +39,17 @@
         <activity
             android:name=".mainPage"
             android:exported="false"></activity>
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false"></activity>
 
         <activity android:name=".account"
             android:exported="false">
         </activity>
-
-        <activity android:name=".cpr_course"
-            android:exported="false"></activity>
+        <activity android:name=".cpr_course"/>
+        <activity android:name=".LastPage"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

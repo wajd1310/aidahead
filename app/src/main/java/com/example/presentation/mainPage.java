@@ -35,18 +35,31 @@ public class mainPage extends AppCompatActivity {
         cpr_course=findViewById(R.id.cpr_course);
         button_library=findViewById(R.id.button_library);
 
-        libraryBtn.setOnClickListener(view->{
-            startActivity(new Intent(mainPage.this, Library.class));
+        libraryBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(mainPage.this,Library.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+
+            }
         });
-        button_library.setOnClickListener(view->{
-            startActivity(new Intent(mainPage.this, Library.class));
-        });
-        leaderboardBtn = findViewById(R.id.leaderboard);
-        leaderboardBtn.setOnClickListener(view->{
-            startActivity(new Intent(mainPage.this, Leaderboard.class));
-        });
-        accountBtn.setOnClickListener(view->{
-            startActivity(new Intent(mainPage.this, account.class));
-        });
+
+            button_library.setOnClickListener(view -> {
+                startActivity(new Intent(mainPage.this, Library.class));
+            });
+            cpr_course.setOnClickListener(view -> {
+               startActivity(new Intent(mainPage.this, CPR_course.class));
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+           });
+            leaderboardBtn = findViewById(R.id.leaderboard);
+            leaderboardBtn.setOnClickListener(view -> {
+                startActivity(new Intent(mainPage.this, Leaderboard.class));
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            });
+            accountBtn.setOnClickListener(view -> {
+                startActivity(new Intent(mainPage.this, account.class));
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            });
+        }
     }
-}

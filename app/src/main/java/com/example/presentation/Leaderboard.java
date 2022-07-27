@@ -11,6 +11,7 @@ public class Leaderboard extends AppCompatActivity {
     private ImageButton libraryBtn;
     private ImageButton leaderboardBtn;
     private ImageButton homeBtn;
+    private ImageButton accountBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,15 +23,19 @@ public class Leaderboard extends AppCompatActivity {
 
         homeBtn=findViewById(R.id.home);
         libraryBtn=findViewById(R.id.library);
+        accountBtn=findViewById(R.id.account);
         leaderboardBtn=findViewById(R.id.leaderboard);
         homeBtn.setOnClickListener(view->{
             startActivity(new Intent(Leaderboard.this, mainPage.class));
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         });
         libraryBtn.setOnClickListener(view->{
             startActivity(new Intent(Leaderboard.this, Library.class));
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         });
-        leaderboardBtn.setOnClickListener(view->{
-            startActivity(new Intent(Leaderboard.this, Leaderboard.class));
+        accountBtn.setOnClickListener(view->{
+            startActivity(new Intent(Leaderboard.this, account.class));
+            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 

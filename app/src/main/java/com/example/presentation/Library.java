@@ -38,13 +38,16 @@ public class Library extends AppCompatActivity{
 
         leaderboardBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, Leaderboard.class));
+            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         });
         homeBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, mainPage.class));
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         });
 
         accountBtn.setOnClickListener(view->{
             startActivity(new Intent(Library.this, account.class));
+            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
