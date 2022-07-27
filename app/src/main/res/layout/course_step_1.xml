@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/topnav" />
+
+
+    <TextView
+        android:id="@+id/step_1"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="Step 1"
+        android:gravity="center_horizontal|top"
+        android:textSize="36sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:id="@+id/assess_the_"
+        android:layout_width="309dp"
+        android:layout_height="267dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:text="Assess the victim's consciousness.
+"
+        android:lineSpacingExtra="4sp"
+        android:translationY="-1.76sp"
+        android:gravity="center_horizontal|top"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+    <View
+        android:id="@+id/step_1_b_pic"
+        android:layout_width="353dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/step_1_pic"
+
+
+        />
+
+
+    <include layout="@layout/bottom_nav">
+
+    </include>
+
+</RelativeLayout>

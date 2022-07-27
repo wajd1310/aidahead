@@ -150,5 +150,5 @@
 
     </LinearLayout>
 
-    e<include layout="@layout/bottom_nav" />
+    <include layout="@layout/bottom_nav" />
 </LinearLayout>
