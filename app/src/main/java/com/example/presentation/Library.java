@@ -109,11 +109,11 @@ public class Library extends AppCompatActivity{
         popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
 
         ImageButton go_course = (ImageButton) popupView.findViewById(R.id.buy);
-        go_course.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Library.this, CPR_course.class));
-            }
+        go_course.setOnClickListener(new_view ->{
+            makeText(Library.this, "succ", Toast.LENGTH_SHORT).show();
+
+            startActivity(new Intent(Library.this, cpr_course.class));
+
         });
     }
 }

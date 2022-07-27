@@ -3,11 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/bottom_nav" />
-
-    <include layout="@layout/topnav"/>
-
-    TextView
     <TextView
         android:id="@+id/remember_st"
         android:layout_width="268dp"
@@ -47,5 +42,17 @@
         android:textSize="22sp"
         android:translationY="-2.31sp" />
 
+    <TextView
+        android:id="@+id/textViewHelper"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+>
+    <include layout="@layout/bottom_nav" />
+
+    <include layout="@layout/topnav" />
 
 </RelativeLayout>

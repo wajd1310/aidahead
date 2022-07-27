@@ -43,7 +43,8 @@
         <activity android:name=".account"
             android:exported="false">
         </activity>
-        <activity android:name=".CPR_course"
+
+        <activity android:name=".cpr_course"
             android:exported="false"></activity>
     </application>
 
