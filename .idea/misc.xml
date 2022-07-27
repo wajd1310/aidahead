@@ -47,7 +47,7 @@
         <entry key="app/src/main/res/layout/activity_introduction.xml" value="0.13297872340425532" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.296" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30183839247541683" />
-        <entry key="app/src/main/res/layout/bottom_nav.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/bottom_nav.xml" value="0.22191011235955055" />
         <entry key="app/src/main/res/layout/cpr_first_game.xml" value="0.20350577169730655" />
         <entry key="app/src/main/res/layout/home_page_no_course.xml" value="0.25" />
         <entry key="app/src/main/res/layout/leaderboard.xml" value="0.20878623188405798" />
@@ -55,6 +55,7 @@
         <entry key="app/src/main/res/layout/login_tab_fragment.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/signup_fragment.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/topnav.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/navbarwajd.xml" value="0.29157759726378796" />
       </map>
     </option>
   </component>
