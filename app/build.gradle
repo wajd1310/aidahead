@@ -35,6 +35,7 @@ dependencies {
 
     // Declare the dependency for the Cloud Firestore library
     // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.0'
     implementation 'com.google.firebase:firebase-firestore'
     implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
