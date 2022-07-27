@@ -54,8 +54,8 @@
         android:layout_marginStart="331dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/account"
-        android:onClick="onClick"
-        android:foregroundGravity="right"/>
+        android:foregroundGravity="right"
+        android:onClick="onClick" />
 
 
 </RelativeLayout>
