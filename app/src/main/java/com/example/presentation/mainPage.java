@@ -49,7 +49,7 @@ public class mainPage extends AppCompatActivity {
                 startActivity(new Intent(mainPage.this, Library.class));
             });
             cpr_course.setOnClickListener(view -> {
-               startActivity(new Intent(mainPage.this, CPR_course.class));
+               startActivity(new Intent(mainPage.this, cpr_course.class));
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
            });
             leaderboardBtn = findViewById(R.id.leaderboard);

@@ -60,7 +60,7 @@ in which someone's breathing or heartbeat has stopped.
             android:visibility="invisible" />
 
         <Button
-            android:id="@+id/go_right"
+            android:id="@+id/go_right1B"
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"

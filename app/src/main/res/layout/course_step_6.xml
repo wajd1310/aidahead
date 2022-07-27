@@ -92,5 +92,14 @@
         tools:layout_editor_absoluteX="68dp"
         tools:layout_editor_absoluteY="575dp"
         android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/go_right1B"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="onClick"
+        android:visibility="visible" />
 
 </RelativeLayout>
