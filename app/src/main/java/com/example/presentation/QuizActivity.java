@@ -21,7 +21,7 @@ public class QuizActivity extends AppCompatActivity {
     private Button mButtonChoice3;
 
     private String mAnswer;
-    private int mScore = 0;
+    private static int mScore = 0;
     private int mQuestionNumber = 0;
 
     @Override
@@ -113,7 +113,7 @@ public class QuizActivity extends AppCompatActivity {
 
     private void updateQuestion() {
         if (mQuestionNumber == 8) {
-            Intent intent = new Intent(getApplicationContext(), Leaderboard.class);
+            Intent intent = new Intent(QuizActivity.this, LastPage.class);
             startActivity(intent);
         } else {
             mQuestionView.setText(mQuestionLibrary.getQuestion(mQuestionNumber));
@@ -124,6 +124,10 @@ public class QuizActivity extends AppCompatActivity {
             mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber);
             mQuestionNumber++;
         }
+    }
+
+    public static int getmScore() {
+        return mScore;
     }
 
 

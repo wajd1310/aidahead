@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/topnav"/>
+    <TextView
+        android:id="@+id/course_finished"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/white_rec"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Course Finished"
+        android:textColor="#F32A2A"
+        android:textSize="36dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="148dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="225dp"
+        android:text="7"
+        android:textSize="46sp"
+
+        android:gravity="center_horizontal|top"
+        />
+
+    <include layout="@layout/bottom_nav"/>
+
+</LinearLayout>
