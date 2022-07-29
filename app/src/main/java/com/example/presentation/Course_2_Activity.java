@@ -20,7 +20,9 @@ public class Course_2_Activity extends AppCompatActivity {
     private TextView par2;
     private ImageView ImageView;
     private Button button;
+    private Button back_button;
     private int stepnum=0;
+    private int backnum=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -31,9 +33,13 @@ public class Course_2_Activity extends AppCompatActivity {
         par2=findViewById(R.id.par2);
         ImageView=findViewById(R.id.image);
         button=findViewById(R.id.go_right1B);
+        back_button=findViewById(R.id.go_left1B);
         updatestep();
         button.setOnClickListener(view -> {
             updatestep();
+        });
+        back_button.setOnClickListener(view -> {
+            reupdatestep();
         });
     }
     private void updatestep() {
@@ -47,6 +53,21 @@ public class Course_2_Activity extends AppCompatActivity {
             par1.setText(Course.getParagraphs1(stepnum));
             par2.setText(Course.getParagraphs2(stepnum));
             stepnum++;
+            backnum++;
+        }
+    }
+    private void reupdatestep() {
+        if (backnum == 0) {
+            Intent intent = new Intent(Course_2_Activity.this, account.class);
+            startActivity(intent);
+        } else {
+            StepView.setText(Course.getSteps(backnum-2));
+            /*ImageView.setImage(Course.getSteps(stepnum));*/
+            Picasso.with(Course_2_Activity.this).load(Course.getImage(backnum-2)).into(ImageView);
+            par1.setText(Course.getParagraphs1(backnum-2));
+            par2.setText(Course.getParagraphs2(backnum-2));
+            backnum--;
+            stepnum--;
         }
     }
 
