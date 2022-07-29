@@ -23,6 +23,9 @@ public class QuizActivity extends AppCompatActivity {
     private String mAnswer;
     private static int mScore = 0;
     private int mQuestionNumber = 0;
+    public static int getmscore(){
+        return mScore;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

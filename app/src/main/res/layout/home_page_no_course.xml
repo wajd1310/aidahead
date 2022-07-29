@@ -23,7 +23,8 @@
             android:fontFamily="@font/poppins_regular"
             android:gravity="center_horizontal|top"
             android:text="choose your way to"
-            android:textSize="26sp" />
+            android:textSize="26sp"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/save_lives_"
@@ -33,8 +34,8 @@
             android:fontFamily="@font/poppins_extrabold"
             android:gravity="center_horizontal|top"
             android:text="SAVE LIVES!"
-            android:textSize="36sp" />
-
+            android:textSize="36sp"
+            android:textColor="#000000"/>
         <Button
             android:id="@+id/button_library"
             android:layout_width="220dp"
@@ -57,7 +58,8 @@
         android:fontFamily="@font/poppins_medium"
         android:gravity="top"
         android:text="Top Courses"
-        android:textSize="39sp" />
+        android:textSize="35sp"
+        android:textColor="#000000"/>
 
 
     <LinearLayout
