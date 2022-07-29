@@ -120,7 +120,6 @@ public class QuizActivity extends AppCompatActivity {
             mButtonChoice1.setText(mQuestionLibrary.getChoice1(mQuestionNumber));
             mButtonChoice2.setText(mQuestionLibrary.getChoice2(mQuestionNumber));
             mButtonChoice3.setText(mQuestionLibrary.getChoice3(mQuestionNumber));
-
             mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber);
             mQuestionNumber++;
         }

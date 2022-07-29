@@ -42,6 +42,9 @@
         <activity
             android:name=".QuizActivity"
             android:exported="false"></activity>
+        <activity
+            android:name=".Course_2_Activity"
+            android:exported="false"></activity>
 
         <activity android:name=".account"
             android:exported="false">
@@ -50,6 +53,7 @@
         <activity android:name=".LastPage"
             android:exported="false">
         </activity>
-    </application>
 
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
