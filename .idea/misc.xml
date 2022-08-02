@@ -59,15 +59,17 @@
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/activity_introduction.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/activity_quiz.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/activity_quiz.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/after_course_page.xml" value="0.12136752136752137" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/bottom_nav.xml" value="0.1" />
+        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/bottom_nav1.xml" value="0.1" />
+        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/call_emergency_intro.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/codes.xml" value="0.12136752136752137" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_intro.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_page_1.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_page_2.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_page_2_b.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_step_1.xml" value="0.1311965811965812" />
+        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_step_1.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_step_1_b.xml" value="0.1311965811965812" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_step_2.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_step_2_b.xml" value="0.10666666666666667" />
@@ -80,6 +82,7 @@
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/course_step_7_b.xml" value="0.13034188034188035" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/cpr_first_game.xml" value="0.1311965811965812" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/cpr_quiz_result_popup.xml" value="0.22" />
+        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/delete_when_you_finish.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.1311965811965812" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/heartattack.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/home_page_no_course.xml" value="0.1" />
@@ -87,6 +90,7 @@
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/popupcourse.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/signup_activity.xml" value="0.1" />
         <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/layout/topnav.xml" value="0.1" />
+        <entry key="..\:/Users/Student/Documents/GitHub/aidahead/app/src/main/res/menu/navbarwajd.xml" value="0.1" />
       </map>
     </option>
   </component>

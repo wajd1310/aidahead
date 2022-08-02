@@ -34,6 +34,7 @@ public class mainPage extends AppCompatActivity {
         libraryBtn = findViewById(R.id.library);
         cpr_course=findViewById(R.id.cpr_course);
         button_library=findViewById(R.id.button_library);
+        cpr_course=findViewById(R.id.cpr_course);
 
         libraryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
