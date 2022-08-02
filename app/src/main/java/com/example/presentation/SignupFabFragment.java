@@ -61,6 +61,12 @@ public class SignupFabFragment extends Fragment {
         });
         return root;
     }
+    public String get_email(){
+        return email.getText().toString();
+    }
+    public String get_name(){
+        return name.getText().toString();
+    }
     private void createUser(){
         String email1= email.getText().toString();
         String password=pass.getText().toString();

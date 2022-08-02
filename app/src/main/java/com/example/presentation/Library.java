@@ -65,7 +65,7 @@ public class Library extends AppCompatActivity{
             case R.id.cpr:
                 // do something
                 break;
-            case R.id.heart_attac:
+            case R.id.call911txt:
                 // do something else
                 break;
         }
