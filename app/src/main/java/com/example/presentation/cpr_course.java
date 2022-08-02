@@ -3,6 +3,7 @@ package com.example.presentation;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,14 +11,14 @@ import androidx.appcompat.app.AppCompatActivity;
 public class cpr_course extends AppCompatActivity {
 
     private Button left;
-    private Button right , right2;
+    private Button right, right2;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.course_intro);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         left = findViewById(R.id.go_left);
         right = findViewById(R.id.go_right1B);
 
@@ -89,7 +90,7 @@ public class cpr_course extends AppCompatActivity {
                                                                                                 right.setOnClickListener(new View.OnClickListener() {
                                                                                                     @Override
                                                                                                     public void onClick(View view) {
-                                                                                                        Intent intent=new Intent(cpr_course.this,QuizActivity.class);
+                                                                                                        Intent intent = new Intent(cpr_course.this, QuizActivity.class);
                                                                                                         startActivity(intent);
 
                                                                                                     }

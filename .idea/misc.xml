@@ -27,6 +27,7 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/activity_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/after_course_page.xml" value="0.22530996152201796" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/bottom_nav.xml" value="0.176" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/call_emergency_intro.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/call_emergency_step_1.xml" value="0.20521590423257802" />
@@ -36,12 +37,17 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_intro.xml" value="0.17400598546387344" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_1.xml" value="0.22530996152201796" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_1_b.xml" value="0.1996579734929457" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_1_b_1.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_2.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_2_b.xml" value="0.22530996152201796" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_3.xml" value="0.20521590423257802" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_4.xml" value="0.10389055151774262" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_3_b.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_4.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_6.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/course_step_7.xml" value="0.22530996152201796" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/cpr_course.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/cpr_first_game.xml" value="0.17400598546387344" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/cpr_quiz_result_popup.xml" value="0.17145505097312327" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/example_fragment.xml" value="0.1265625" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/presentation/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.2" />

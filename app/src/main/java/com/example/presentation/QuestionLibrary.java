@@ -29,7 +29,7 @@ public class QuestionLibrary {
     };
 
 
-    private String mCorrectAnswers[] = {"Call for a professional help", "Look for a response from the patient", "Both","Have the second rescuer help with CPR, to minimize fatigue","on his back","2 fingers","5cm","coughing"};
+    private String mCorrectAnswers[] = {"Call for a professional help", "Look for a response from the patient", "Both","Have the second rescuer help with CPR, to minimize fatigue","on his back","2 fingers","5cm","No pulse"};
 
     public String getQuestion(int a) {
         String question = mQuestions[a];

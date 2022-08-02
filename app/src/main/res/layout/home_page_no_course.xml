@@ -3,11 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:visibility="visible">
-
     <include layout="@layout/topnav" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="293dp"
@@ -25,7 +24,6 @@
             android:text="choose your way to"
             android:textSize="26sp"
             android:textColor="#000000"/>
-
         <TextView
             android:id="@+id/save_lives_"
             android:layout_width="300dp"
@@ -44,9 +42,7 @@
             android:layout_marginTop="25dp"
             android:backgroundTint="#FA5F5F"
             android:text="check out our library " />
-
     </LinearLayout>
-
     <TextView
         android:id="@+id/top_courses"
         android:layout_width="wrap_content"
@@ -60,22 +56,17 @@
         android:text="Top Courses"
         android:textSize="35sp"
         android:textColor="#000000"/>
-
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:translationX="16dp"
         android:translationY="2dp">
-
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
-
             <ImageButton
                 android:id="@+id/cpr_course"
                 android:layout_width="180dp"
@@ -84,7 +75,6 @@
                 android:layout_centerVertical="true"
                 android:background="@drawable/cpr_pic"
                 android:elevation="7dp" />
-
             <TextView
                 android:id="@+id/cpr_treatme"
                 android:layout_width="wrap_content"
@@ -96,26 +86,24 @@
                 android:gravity="top"
                 android:text="CPR treatment"
                 android:textSize="14sp" />
-
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/heart_attack_course"
+                android:id="@+id/call911"
                 android:layout_width="180dp"
                 android:layout_height="180dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/heart_attack_pic"
+                android:background="@drawable/call911"
                 android:elevation="7dp" />
 
             <TextView
-                android:id="@+id/heart_attac"
+                android:id="@+id/call911txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -123,13 +111,19 @@
                 android:layout_marginLeft="18dp"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="top"
-                android:text="Heart Attack"
+                android:text="Call 911"
                 android:textSize="14sp" />
+
         </LinearLayout>
 
-
     </LinearLayout>
-
     <include layout="@layout/bottom_nav" />
-
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="false"
+        android:layout_marginLeft="30dp"
+        app:lottie_fileName="24585-cool-green-checkmark.json"
+        android:layout_marginTop="-280dp"/>
 </LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Holder"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="95dp" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_marginLeft="-200dp"
+        app:lottie_autoPlay="true"
+        android:layout_width="wrap_content"
+        app:lottie_fileName="31176-medal-badge.json"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="-155dp"
+        android:textAlignment="center"
+        android:text="Score:"
+        android:textSize="29dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8/10"
+        android:textSize="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-100dp"
+
+        android:id="@+id/Score"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/continue_b"
+        android:layout_marginLeft="-125dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="270dp"
+        android:padding="30dp"
+        android:backgroundTint="#F2DB66"/>
+
+
+</LinearLayout>
