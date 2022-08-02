@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.presentation">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Presentation">
+        <activity
+            android:name=".MiniGame"
+            android:exported="false" />
+        <activity
+            android:name=".VideoExample"
+            android:exported="false" />
         <activity
             android:name=".LoginActiv"
             android:exported="false" />
@@ -25,31 +33,29 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".Leaderboard"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".Library"
-            android:exported="false"></activity>
-
-        <activity android:name=".SignupActiv"
-            android:exported="false"></activity>
-
+            android:exported="false" />
+        <activity
+            android:name=".SignupActiv"
+            android:exported="false" />
         <activity
             android:name=".mainPage"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".QuizActivity"
-            android:exported="false"></activity>
-
-        <activity android:name=".account"
-            android:exported="false">
-        </activity>
-        <activity android:name=".cpr_course"/>
-        <activity android:name=".LastPage"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity android:name=".cpr_course" />
+        <activity
+            android:name=".LastPage"
+            android:exported="false" />
     </application>
 
 </manifest>
