@@ -55,7 +55,13 @@
         <activity android:name=".cpr_course" />
         <activity
             android:name=".LastPage"
-            android:exported="false" />
+            android:exported="false" ></activity>
+        <activity
+            android:name=".Course_2_Activity"
+            android:exported="false"></activity>
+
+
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -55,6 +55,11 @@ public class Library extends AppCompatActivity{
 
     private String course_name = "";
     public void onButtonShowPopupWindowClick(View view) {
+
+
+
+
+
         String course = "";
         switch (view.getId()) {
             case R.id.cpr:
@@ -106,6 +111,8 @@ public class Library extends AppCompatActivity{
         int height = LinearLayout.LayoutParams.WRAP_CONTENT;
         boolean focusable = true; // lets taps outside the popup also dismiss it
         final PopupWindow popupWindow = new PopupWindow(popupView, width, height, true);
+
+
 
         // show the popup window
         // which view you pass in doesn't matter, it is only used for the window tolken

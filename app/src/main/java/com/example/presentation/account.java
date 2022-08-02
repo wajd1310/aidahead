@@ -25,7 +25,7 @@ public class account extends AppCompatActivity{
             overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         });
         Quiz.setOnClickListener(view->{
-            startActivity(new Intent(account.this, QuizActivity.class));
+            startActivity(new Intent(account.this, Course_2_Activity.class));
             overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         });
         homeBtn.setOnClickListener(view->{
