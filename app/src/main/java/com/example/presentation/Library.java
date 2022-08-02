@@ -122,7 +122,7 @@ public class Library extends AppCompatActivity{
         go_course.setOnClickListener(new_view ->{
             makeText(Library.this, "succ", Toast.LENGTH_SHORT).show();
 
-            startActivity(new Intent(Library.this, Library.class));
+            startActivity(new Intent(Library.this, cpr_course.class));
 
         });
     }
