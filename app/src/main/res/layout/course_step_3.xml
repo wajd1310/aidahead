@@ -96,7 +96,6 @@
 
     <Button
         android:id="@+id/go_right1B"
-
         android:layout_width="186dp"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"

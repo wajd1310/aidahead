@@ -158,7 +158,7 @@ public class QuizActivity extends AppCompatActivity {
         }
 
 
-        private void updateScore( int point){
+        private void updateScore( int point) {
             mScoreView.setText("" + mScore);
         }
     }
