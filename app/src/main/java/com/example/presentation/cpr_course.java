@@ -112,7 +112,7 @@ public class cpr_course extends AppCompatActivity {
                                                                                                 right.setOnClickListener(new View.OnClickListener() {
                                                                                                     @Override
                                                                                                     public void onClick(View view) {
-                                                                                                        Intent intent = new Intent(cpr_course.this, QuizActivity.class);
+                                                                                                        Intent intent = new Intent(cpr_course.this, MiniGame.class);
                                                                                                         startActivity(intent);
 
                                                                                                     }

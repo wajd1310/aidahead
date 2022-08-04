@@ -288,9 +288,4 @@
         android:id="@+id/buttonquiz"
         layout="@layout/bottom_nav" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="236dp"
-        android:layout_height="100dp"
-        android:text="Button" />
 </RelativeLayout>

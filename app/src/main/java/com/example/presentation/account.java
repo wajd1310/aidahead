@@ -17,7 +17,6 @@ public class account extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.account);
         leaderboardBtn=findViewById(R.id.leaderboard);
-        Quiz=findViewById(R.id.button2);
         homeBtn=findViewById(R.id.home);
         libraryBtn=findViewById(R.id.library);
         leaderboardBtn.setOnClickListener(view->{
