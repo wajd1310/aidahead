@@ -45,12 +45,12 @@ boolean isFinished;
         System.out.println(end_time);
         System.out.println(start_time);
         System.out.println(difference);
-        if(difference<5.5 && difference>0){
+        if(difference<8 && difference>0){
             rightScor ++;
             rightAnswerView.setText("" + rightScor);
             System.out.println("it worked");
             i++;
-            if(rightScor==3){
+            if(rightScor==10){
                 System.out.println("you won");
                 mySong.stop();
                 isFinished = true;
@@ -82,7 +82,7 @@ boolean isFinished;
         }
             }
         };
-        t.schedule(tt,1700*8 - 10,1700);
+        t.schedule(tt,1700*8 - 10,1750);
 
     }
 }
